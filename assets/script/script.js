@@ -43,6 +43,8 @@ reviewsCount == 7? (reviewsCount = 0, carouselReviewsContainer.style.marginLeft 
 
 const closeBtn = document.querySelector('.closeBtn img');
 const openBtn = document.querySelector('.openBtn img');
+const menuList = document.querySelectorAll('header ul li');
+
 
 function menuBtn (){
     if(!document.querySelector('header ul').classList.contains('active')){
@@ -55,6 +57,12 @@ function menuBtn (){
         closeBtn.style.display = 'none';
     }
 }
+
+menuList.forEach(e=>{
+    if(window.innerWidth < 850){
+        e.addEventListener('click',menuBtn);
+    }
+});
 
 
 
