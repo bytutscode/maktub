@@ -131,6 +131,7 @@ header button:hover {
 }
 .carousel-item:nth-child(2){
     background-image: url('../../media/borna-bevanda-w12NAMymqnk-unsplash.jpg');
+	 background-position: right;
 }
 .carousel-item:nth-child(3){
     background-image: url('../../media/iris-wang-9Xllq94_lqQ-unsplash.jpg');
