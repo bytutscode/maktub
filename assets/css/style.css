@@ -45,7 +45,7 @@ ul {
     top: 20px;
 }
 
-ul li {
+ul li a{
     font-size: 20px;
     margin: 0px 20px;
     cursor: pointer;
